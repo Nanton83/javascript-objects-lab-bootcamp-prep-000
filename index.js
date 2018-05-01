@@ -14,5 +14,6 @@ return recipes
 ;}
 
 function destructivelyDeleteFromObjectByKey(recipes, stews){
+delete recipes
 return recipes
 ;}
