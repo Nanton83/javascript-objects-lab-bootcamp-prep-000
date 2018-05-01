@@ -14,6 +14,6 @@ return recipes
 ;}
 
 function destructivelyDeleteFromObjectByKey(recipes, stews){
-delete recipes
+delete recipes[stews];
 return recipes
 ;}
